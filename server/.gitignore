@@ -1,0 +1,48 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables - ignore original files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example environment files
+!.env.example
+!**/.env.example
+
+# Uploads - ignore uploaded files, keep gitkeep
+uploads/*
+!uploads/.gitkeep
+
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build files
+dist/
+build/
+**/dist/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.vite/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Deployment
+.vercel/
+.netlify/
