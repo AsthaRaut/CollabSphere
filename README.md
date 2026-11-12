@@ -2,7 +2,7 @@
 
 AI-powered developer collaboration platform. Create projects, invite teammates, write Markdown notes, share files and use Google Gemini to explain code, improve notes and generate READMEs.
 
-**Live demo:** https://live-link
+**Live demo:** https://collabsphere-28qt.onrender.com
 **Built by:** Astha
 
 ## Features
